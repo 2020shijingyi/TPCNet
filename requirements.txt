@@ -1,0 +1,16 @@
+einops==0.8.1
+fvcore==0.1.5.post20221221
+ipdb==0.13.13
+kornia==0.8.1
+lpips==0.1.4
+numpy==1.21.5
+opencv_python==4.11.0.86
+Pillow==9.2.0
+Pillow==11.3.0
+pyiqa==0.1.14.1
+PyYAML==6.0
+scipy==1.9.1
+torch==2.3.0+cu121
+torchvision==0.18.0+cu121
+tqdm==4.64.1
+wandb==0.22.0

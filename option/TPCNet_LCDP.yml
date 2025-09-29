@@ -1,0 +1,70 @@
+
+# dataset and data loader settings
+name: TPCNet_LCDP
+dataname: LCDP
+resume: False
+
+datasets:
+  train:
+    dateset_opt:
+      type: LCDPDataset
+      data_dir: F:\LCDP\LCDP\train
+      filp: True
+      crop_size: 320
+    loader_opt:
+      batch_size: 1
+      shuffle: True
+  eval:
+    dateset_opt:
+      type: LCDPDataset
+      data_dir: F:\LCDP\LCDP\test
+      #fold_name:
+    loader_opt:
+      batch_size: 1
+      shuffle: False
+
+network:
+  type: TPCNet
+  CAM_type: YCBCR
+
+train:
+  num_gpu: 1
+  total_epoch: 1500
+  warmup_epoch: 3 # -1 no warm up
+  use_grad_clip: False
+  Idx: False  #add the idx to the saved image making sure image matching
+  saveGT: False
+  use_amp: True
+  target_path: F:\LCDP\LCDP\test\gt
+
+  optim_opt:
+    type: Adam
+    lr: !!float 2.5e-4
+    # weight_decay: !!float 1e-4
+    # betas: [ 0.9, 0.999 ]
+
+  scheduler:
+    type: CosineAnnealingRestartLR
+    restart_weights: [ 1 ]
+    eta_min: !!float 1e-7
+#    type: CosineAnnealingRestartCyclicLR
+#    periods: [97,1000,400]
+#    restart_weights: [1,2.5,1]
+#    eta_mins: [!!float 1e-7,!!float 1e-7,!!float 1e-7]
+
+
+  loss_fn:
+    L1_weight: !!float 1.0
+    D_weight: !!float 0.25
+    E_weight: !!float 15
+    P_weight: !!float 0.1
+    Color: !!float 0.15
+
+#eval:
+#  color_transition:
+#    alpha_color: 0.8
+
+logger:
+  save_freq: 10
+  use_tb_logger: true
+

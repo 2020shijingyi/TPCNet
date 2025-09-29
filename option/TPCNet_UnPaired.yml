@@ -1,0 +1,20 @@
+
+# dataset and data loader settings
+name: TPCNet_Unpaired
+dataname: Unpaired
+resume: False
+
+datasets:
+  eval:
+    dateset_opt:
+      type: UnpairedFromFolder
+      data_dir: F:\UnPaired
+      #fold_name:
+    loader_opt:
+      batch_size: 1
+      shuffle: False
+
+network:
+  type: TPCNet
+  CAM_type: YCBCR
+
