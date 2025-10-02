@@ -8,7 +8,7 @@ This repository contains the implementation of our submission. We provide code, 
 <details close>
 <summary><b>TPCNet framework:</b></summary>
 
-![results3](./sample/Method.png)
+![results1](./sample/Method.png)
 
 </details>
 
@@ -17,14 +17,14 @@ This repository contains the implementation of our submission. We provide code, 
 <details close>
 <summary><b>LOL-v2-synthetic and VILNC-Indoor:</b></summary>
 
-![results1](./sample/LOLV2.png)
+![results2](./sample/LOLV2.png)
 
 </details>
 
 <details close>
 <summary><b>DICM, LIME, MEF, NPE, and VV:</b></summary>
 
-![results2](./sample/Unpaired.png)
+![results3](./sample/Unpaired.png)
 
 </details>
 
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
-You can refer to the following links to download the [LOLv2](https://github.com/Fediory/HVI-CIDNet), [SID (Sony-Total-Dark)](https://github.com/Fediory/HVI-CIDNet), and [LCDP](https://drive.google.com/drive/folders/10Reaq-N0DiZiFpSrZ8j5g3g0EJes4JiS?usp=sharing) datasets. We provided the **VILNC-Indoor** dataset in file Test_dataset, which can be used to test.
+You can refer to the following links to download the [LOLv2](https://github.com/Fediory/HVI-CIDNet), [SID (Sony-Total-Dark)](https://github.com/Fediory/HVI-CIDNet), and [LCDP](https://github.com/onpix/LCDPNet) datasets. We provided the **VILNC-Indoor** dataset in file Test_dataset, which can be used to test.
 
 ## 2. Testing 🛠
 
