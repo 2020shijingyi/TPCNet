@@ -37,9 +37,9 @@ This repository contains the implementation of our submission. We provide code, 
 |-------|--------| ----- |-------|-------------|--------------------|
 | LOL-v2-real | 24.978 | 0.882  | 0.102 | Results/LOL-v2-Real | Weight/LOLV2_R.pth |
 | LOL-v2-Synthetic | 26.032 | 0.943 | 0.041 | Results/LOL-v2-Synthetic | Weight/LOLV2_S.pth |
-| VILNC-Indoor | 24.639 | 0.785  | 0.194 | Results/VILNC-Indoor | Weight/VILNC.pth   |
+| VILNC-Indoor | 24.634 | 0.785  | 0.194 | Results/VILNC-Indoor | Weight/VILNC.pth   |
 | Sony-Total-Dark | 23.577 | 0.691 | 0.417 | Results/SID | Weight/SID.pth     |
-| LCDP  | 23.398   |  0.874  | 0.069    | Results/LCDP | Weight/LCDP.pth    |
+| LCDP  | 23.398 |  0.874  | 0.069    | Results/LCDP | Weight/LCDP.pth    |
 
 </details>
 
