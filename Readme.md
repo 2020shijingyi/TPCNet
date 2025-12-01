@@ -101,8 +101,22 @@ python Test.py --yaml_path yaml_path --target_path target_path --weight_path wei
 python Test.py --Unpaired_path unpaired_path --Unpaired_metrics niqe musiq pi --test_type Unpaired
 ```
 
+## 3. Citation
 
+```shell
+@misc{TPCNet,
+      title={TPCNet: Triple physical constraints for Low-light Image Enhancement}, 
+      author={Jing-Yi Shi and Ming-Fei Li and Ling-An Wu},
+      year={2025},
+      eprint={2511.22052},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.22052}, 
+}
+```
 
+## 4. Acknowledgments
+This source code is inspired by [Retinexformer](https://github.com/caiyuanhao1998/Retinexformer?tab=readme-ov-file) and [HVI-CIDNet](https://github.com/Fediory/HVI-CIDNet?tab=readme-ov-file).
 
 
 
