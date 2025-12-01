@@ -1,6 +1,6 @@
 # TPCNet: Triple physical constraints for Low-light Image Enhancement ✨
 
-This repository contains the implementation of our submission. We provide code, pretrained models, and instructions for reproducing the main experimental results.  
+This repository contains the implementation of our work. We provide code, pretrained models (will be provided soon), and instructions for reproducing the main experimental results.  
 
 
 ## Proposed TPCNet 
