@@ -103,15 +103,17 @@ python Test.py --Unpaired_path unpaired_path --Unpaired_metrics niqe musiq pi --
 
 ## 3. Citation
 
-```shell
-@misc{TPCNet,
-      title={TPCNet: Triple physical constraints for Low-light Image Enhancement}, 
-      author={Jing-Yi Shi and Ming-Fei Li and Ling-An Wu},
-      year={2025},
-      eprint={2511.22052},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2511.22052}, 
+```bibtex
+@inproceedings{TPCNet,
+  author    = {Shi, Jing-Yi and Li, Ming-Fei and Wu, Ling-An},
+  title     = {{TPCNet}: A Low-Light Image Enhancement Network Inspired by Triple Physical Constraints},
+  booktitle = {Computer Vision -- ECCV 2026},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {17061},
+  pages     = {627--645},
+  year      = {2026},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-032-37095-2_34}
 }
 ```
 
